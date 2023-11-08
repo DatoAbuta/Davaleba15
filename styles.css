@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Big+Shoulders+Display:wght@800;900&family=Chivo&family=DM+Serif+Display&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Chivo';
+    background-color: #121725;
+    background-image: url(assets/Bitmap.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 13.2px;
+    padding-top: 62px;
+}
+
+h1{
+    margin: 0 24px 0 24px;
+    width: 327px;
+    color: #54E6AF;
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+span{
+    color: #FFF;
+    font-family: 'Chivo';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.mid{
+    margin-top: 57px;
+}
+
+p{
+    width: 327px;
+    color: #C2CBE5;
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 16px 24px 0 24px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 23px;
+    margin-top: 33px;
+}
+.qvemot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+input{
+    width: 327px;
+    height: 46px;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Chivo';
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    background-color: #2C344B;
+    border: none;
+    margin-top: 48px;
+}
+
+button{
+    width: 327px;
+    height: 46px;
+    background-color: #54E6AF;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: none;
+}
+
+h2{
+    color: #121725;
+    font-family: 'Chivo';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.dn{
+    display: none;
+}

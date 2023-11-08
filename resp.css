@@ -1,0 +1,138 @@
+@media (width >= 768px){
+    body{
+        background-color: #121725;
+        background-image: url(assets/brobro.svg),url(assets/Combined\ Shape\ 3.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0, 10% 139%;
+    }
+    .mid{
+        width: 635px;
+        height: 509px;
+        flex-shrink: 0;
+        background: #121725;
+        margin-top: 152px;
+        display: block;
+        padding-top: 93px;
+    }
+    header{
+        padding-top: 50px;
+        display: flex;
+        justify-content: start;
+    }
+    .logos{
+        display: flex;
+        column-gap: 40px;
+        justify-content: start;
+    }
+    .qvemot{
+        display: block;
+        position: relative;
+        width: 427px;
+        height: 56px;
+        text-align: center;
+    }
+    h1{
+        margin: 0;
+        text-align: start;
+        font-size: 48px;
+        line-height: 56px;
+        width: 635px;
+    }
+    span{
+        font-size: 48px;
+        line-height: 56px;
+
+    }
+    p{
+        margin: 31px 190px 0 0;
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+    }
+    button{
+        width: 162px;
+        height: 46px;
+        position: absolute;
+        top: 53px;
+        right: 5px;
+    }
+    input{
+        width: 427px;
+        height: 56px;
+    }
+    .pirveli{
+        width: 96px;
+        height: 29px;
+        flex-shrink: 0;
+    }
+    .meore{
+        width: 78px;
+        height: 29px;
+        flex-shrink: 0;
+    }
+    .mesame{
+        width: 125px;
+        height: 18px;
+        flex-shrink: 0;
+    }
+    .meotxe{
+        width: 129px;
+        height: 26px;
+        flex-shrink: 0;
+    }
+    .zddzma{
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 64px;
+    }
+    #erroris-mesiji{
+        text-align: center;
+        margin-top: 2%;
+        margin-left: -20%;
+    }
+    .dn{
+        display: none;
+    }
+}
+@media (width >= 1440px){
+    .mid{
+        width: 723px;
+        height: 509px;
+        flex-shrink: 0;
+        margin: 15px 0 0 0;
+        padding: 88px 0 0 0;
+        display: block;
+        background-color: #121725;
+        margin-top: 102px;
+        margin-left: -30%;
+        /* transform: translateY(-10%); */
+    }
+    body{
+        background-color: #121725;
+        background-image: url(./assets/broski.svg);
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    header{
+        padding-top: 102px;
+        justify-content: start;
+        padding-left: -50%;
+        transform: translateX(-31.1%);
+    }
+    h1{
+        font-size: 52px;
+        line-height: 62px;
+        width: 665px;
+    }
+    span{
+        line-height: 62px;
+        font-size: 52px;
+    }
+    .dn{
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 76px;
+    }
+}
